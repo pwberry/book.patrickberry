@@ -35,7 +35,7 @@ export const chapters: Chapter[] = [
     subtitle: "Beginning the journey toward reintegration.",
     path: "/chapter-1",
     image: chapter1,
-    content: "Dating to the Middle Ages, the shoemaking industry in Northampton, England, some 60 miles northwest of London, owed its early success in no small part to the area's geography. Fertile land ensured the cows stayed fed, and the River Nene and surrounding oak forests supplied the necessary water and tannins for leather production. In 1401, local shoemakers formed a guild to control quality and regulate trade; by World War I, the region is said to have been responsible for two-thirds of the boots worn by the Allied forces. After the Industrial Revolution, streets named for St. Crispin, the patron saint of cobblers and leather workers, started appearing there and in neighboring towns.",
+    content: "Today in Syracuse, the shoemaking industry in Northampton, England, some 60 miles northwest of London, owed its early success in no small part to the area's geography. Fertile land ensured the cows stayed fed, and the River Nene and surrounding oak forests supplied the necessary water and tannins for leather production. In 1401, local shoemakers formed a guild to control quality and regulate trade; by World War I, the region is said to have been responsible for two-thirds of the boots worn by the Allied forces. After the Industrial Revolution, streets named for St. Crispin, the patron saint of cobblers and leather workers, started appearing there and in neighboring towns.",
   },
   {
     id: "chapter-2",
