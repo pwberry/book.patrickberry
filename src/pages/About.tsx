@@ -49,9 +49,11 @@ const About = () => {
                 alt="Elegant study room with vintage books"
                 className="w-full aspect-[16/10] object-cover"
               />
-              <p className="text-xs text-muted-foreground mt-2 italic">
-                Photo credit placeholder
-              </p>
+              {aboutPageContent.caption && (
+                <p className="text-xs text-muted-foreground mt-2 italic">
+                  <HighlightText text={aboutPageContent.caption} searchTerm={highlightTerm} />
+                </p>
+              )}
             </div>
 
             {/* Article Header */}
