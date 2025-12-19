@@ -74,6 +74,17 @@ const SearchDialog = ({ open, onOpenChange }: SearchDialogProps) => {
 
     // Search chapters
     chapters.forEach((chapter) => {
+      // Check label (e.g., "CHAPTER 1", "INTRODUCTION")
+      if (chapter.label.toLowerCase().includes(searchLower)) {
+        results.push({
+          slug: chapter.slug,
+          label: chapter.label,
+          title: chapter.title,
+          matchedText: chapter.subtitle,
+          matchType: "title",
+        });
+      }
+
       // Check title
       if (chapter.title.toLowerCase().includes(searchLower)) {
         results.push({
