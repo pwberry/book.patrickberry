@@ -70,10 +70,11 @@ const ChapterPage = () => {
           alt={chapter.title}
           className="w-full aspect-[4/3] object-cover"
         />
-        <figcaption className="text-xs text-muted-foreground mt-2 italic">
-          An artisan at the John Lobb workshop in Northampton, England, finishes the Lopez 75 by hand.
-          <span className="not-italic ml-1">Photo: Harriet Ellis</span>
-        </figcaption>
+        {chapter.caption && (
+          <figcaption className="text-xs text-muted-foreground mt-2 italic">
+            <HighlightText text={chapter.caption} searchTerm={highlightTerm} />
+          </figcaption>
+        )}
       </figure>
 
       {/* Chapter Content */}
