@@ -13,6 +13,7 @@ export interface Chapter {
   subtitle: string;
   path: string;
   image: string;
+  caption: string;
   content: string;
 }
 
@@ -25,6 +26,7 @@ export const chapters: Chapter[] = [
     subtitle: "How a group of people found a home.",
     path: "/introduction",
     image: chapterIntro,
+    caption: "An artisan at the John Lobb workshop in Northampton, England, finishes the Lopez 75 by hand. Photo: Harriet Ellis",
     content: "Dating to the Middle Ages, the shoemaking industry in Northampton, England, some 60 miles northwest of London, owed its early success in no small part to the area's geography. Fertile land ensured the cows stayed fed, and the River Nene and surrounding oak forests supplied the necessary water and tannins for leather production. In 1401, local shoemakers formed a guild to control quality and regulate trade; by World War I, the region is said to have been responsible for two-thirds of the boots worn by the Allied forces. After the Industrial Revolution, streets named for St. Crispin, the patron saint of cobblers and leather workers, started appearing there and in neighboring towns. As the story goes, in the third century, the twin brothers Crispin and Crispinian had fled Roman persecution and settled in what is now France, where they preached Christianity and made shoes for a living. Every Oct. 25, local shoemakers still celebrate St. Crispin's Day.",
   },
   {
@@ -35,7 +37,8 @@ export const chapters: Chapter[] = [
     subtitle: "Beginning the journey toward reintegration.",
     path: "/chapter-1",
     image: chapter1,
-    content: "Today in Syracuse, the shoemaking industry in Northampton, England, some 60 miles northwest of London, owed its early success in no small part to the area's geography. Fertile land ensured the cows stayed fed, and the River Nene and surrounding oak forests supplied the necessary water and tannins for leather production. In 1401, local shoemakers formed a guild to control quality and regulate trade; by World War I, the region is said to have been responsible for two-thirds of the boots worn by the Allied forces. After the Industrial Revolution, streets named for St. Crispin, the patron saint of cobblers and leather workers, started appearing there and in neighboring towns.",
+    caption: "An artisan at the John Lobb workshop in Northampton, England, finishes the Lopez 75 by hand. Photo: Harriet Ellis",
+    content: "Dating to the Middle Ages, the shoemaking industry in Northampton, England, some 60 miles northwest of London, owed its early success in no small part to the area's geography. Fertile land ensured the cows stayed fed, and the River Nene and surrounding oak forests supplied the necessary water and tannins for leather production. In 1401, local shoemakers formed a guild to control quality and regulate trade; by World War I, the region is said to have been responsible for two-thirds of the boots worn by the Allied forces. After the Industrial Revolution, streets named for St. Crispin, the patron saint of cobblers and leather workers, started appearing there and in neighboring towns.",
   },
   {
     id: "chapter-2",
@@ -45,6 +48,7 @@ export const chapters: Chapter[] = [
     subtitle: "The importance of support networks.",
     path: "/chapter-2",
     image: chapter2,
+    caption: "An artisan at the John Lobb workshop in Northampton, England, finishes the Lopez 75 by hand. Photo: Harriet Ellis",
     content: "Dating to the Middle Ages, the shoemaking industry in Northampton, England, some 60 miles northwest of London, owed its early success in no small part to the area's geography. Fertile land ensured the cows stayed fed, and the River Nene and surrounding oak forests supplied the necessary water and tannins for leather production. In 1401, local shoemakers formed a guild to control quality and regulate trade; by World War I, the region is said to have been responsible for two-thirds of the boots worn by the Allied forces.",
   },
   {
@@ -55,6 +59,7 @@ export const chapters: Chapter[] = [
     subtitle: "Learning as a path to transformation.",
     path: "/chapter-3",
     image: chapter3,
+    caption: "An artisan at the John Lobb workshop in Northampton, England, finishes the Lopez 75 by hand. Photo: Harriet Ellis",
     content: "Dating to the Middle Ages, the shoemaking industry in Northampton, England, some 60 miles northwest of London, owed its early success in no small part to the area's geography. Fertile land ensured the cows stayed fed, and the River Nene and surrounding oak forests supplied the necessary water and tannins for leather production. In 1401, local shoemakers formed a guild to control quality and regulate trade; by World War I, the region is said to have been responsible for two-thirds of the boots worn by the Allied forces.",
   },
   {
@@ -65,6 +70,7 @@ export const chapters: Chapter[] = [
     subtitle: "Finding meaningful employment and identity.",
     path: "/chapter-4",
     image: chapter4,
+    caption: "An artisan at the John Lobb workshop in Northampton, England, finishes the Lopez 75 by hand. Photo: Harriet Ellis",
     content: "Dating to the Middle Ages, the shoemaking industry in Northampton, England, some 60 miles northwest of London, owed its early success in no small part to the area's geography. Fertile land ensured the cows stayed fed, and the River Nene and surrounding oak forests supplied the necessary water and tannins for leather production. In 1401, local shoemakers formed a guild to control quality and regulate trade; by World War I, the region is said to have been responsible for two-thirds of the boots worn by the Allied forces.",
   },
   {
@@ -75,6 +81,7 @@ export const chapters: Chapter[] = [
     subtitle: "Hope and the future of reentry programs.",
     path: "/chapter-5",
     image: chapter5,
+    caption: "An artisan at the John Lobb workshop in Northampton, England, finishes the Lopez 75 by hand. Photo: Harriet Ellis",
     content: "Dating to the Middle Ages, the shoemaking industry in Northampton, England, some 60 miles northwest of London, owed its early success in no small part to the area's geography. Fertile land ensured the cows stayed fed, and the River Nene and surrounding oak forests supplied the necessary water and tannins for leather production. In 1401, local shoemakers formed a guild to control quality and regulate trade; by World War I, the region is said to have been responsible for two-thirds of the boots worn by the Allied forces.",
   },
   {
@@ -85,6 +92,7 @@ export const chapters: Chapter[] = [
     subtitle: "Sources and references.",
     path: "/works-cited",
     image: chapter5,
+    caption: "",
     content: "Sources and references for the book.",
   },
 ];
@@ -94,5 +102,6 @@ export const aboutPageContent = {
   slug: "about",
   title: "Rose Byrne and Sheila Heti on Parenting, A.I. and the Nature of Personality",
   subtitle: "The If I Had Legs I'd Kick You actor and the author of Alphabetical Diaries met for a wide-ranging conversation.",
+  caption: "Photo credit placeholder",
   content: "Dating to the Middle Ages, the shoemaking industry in Northampton, England, some 60 miles northwest of London, owed its early success in no small part to the area's geography. Fertile land ensured the cows stayed fed, and the River Nene and surrounding oak forests supplied the necessary water and tannins for leather production. In 1401, local shoemakers formed a guild to control quality and regulate trade; by World War I, the region is said to have been responsible for two-thirds of the boots worn by the Allied forces. After the Industrial Revolution, streets named for St. Crispin, the patron saint of cobblers and leather workers, started appearing there and in neighboring towns. As the story goes, in the third century, the twin brothers Crispin and Crispinian had fled Roman persecution and settled in what is now France, where they preached Christianity and made shoes for a living. Every Oct. 25, local shoemakers still celebrate St. Crispin's Day.",
 };
