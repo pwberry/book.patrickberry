@@ -15,7 +15,7 @@ interface SearchResult {
   label: string;
   title: string;
   matchedText: string;
-  matchType: "title" | "subtitle" | "content";
+  matchType: "title" | "subtitle" | "content" | "caption";
 }
 
 interface SearchDialogProps {
@@ -107,6 +107,17 @@ const SearchDialog = ({ open, onOpenChange }: SearchDialogProps) => {
         });
       }
 
+      // Check caption
+      if (chapter.caption && chapter.caption.toLowerCase().includes(searchLower)) {
+        results.push({
+          slug: chapter.slug,
+          label: chapter.label,
+          title: chapter.title,
+          matchedText: chapter.caption,
+          matchType: "caption",
+        });
+      }
+
       // Find all content matches
       const contentMatches = findAllMatches(
         chapter.content,
@@ -136,6 +147,17 @@ const SearchDialog = ({ open, onOpenChange }: SearchDialogProps) => {
         title: aboutPageContent.title,
         matchedText: aboutPageContent.subtitle,
         matchType: "subtitle",
+      });
+    }
+
+    // Check about page caption
+    if (aboutPageContent.caption && aboutPageContent.caption.toLowerCase().includes(searchLower)) {
+      results.push({
+        slug: "about",
+        label: "ABOUT",
+        title: aboutPageContent.title,
+        matchedText: aboutPageContent.caption,
+        matchType: "caption",
       });
     }
 
